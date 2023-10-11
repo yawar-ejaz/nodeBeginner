@@ -67,7 +67,7 @@ const requestHandler = (req, res) => {
     else {
         res.write("<html>")
         res.write("<head><title>Response Page</title></head>")
-        res.write("<body><h1>Blank Page</h1></body>")
+        res.write("<body><h1>a Blank Page</h1></body>")
         res.write("</html>")
         res.end()
     }
